@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.body{
+    background-color: #F4F7FE;
+    margin: 0;
+    padding: 0;
+    font-family:'DM Sans'
+    
+}
+
+.container{
+    display:flex;
+    background-color: #F4F7FE;
+    margin: 0;
+    padding: 0;
+    font-family:'DM Sans';
+    height:1732px;
+    overflow-x: auto;
+
+}
+
+.area_principal{
+    margin-top: 45px;
+    margin-left:20px;
+    overflow-x: auto;
+
+    
+}
+
+.sidebar{
+    max-width:290px;
+    max-height: 1152px;
+    background-color: white;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo{
+    margin-top:20px;
+    margin-left: 30px;
+    width: 154px;
+    height: 88px;
+}
+
+.sidebar nav{
+
+    margin-top: 50px;
+}
+
+.sidebar nav ul{
+    padding-left:30px;
+}
+
+
+.sidebar li{
+    position:relative;
+    align-items: center;
+    list-style-type: none;
+    line-height: 50px;
+
+
+
+}
+
+
+.sidebar li a{
+    flex-grow: 1;
+    position: absolute;
+    left: 30px;
+    top:0;
+    bottom:0;
+    right: 0;
+    height: 30px;
+    display: block;
+    color:#A3AED0;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+
+.sidebar li.ativo a{
+    color: #2B3674;
+    border-right-style: solid;
+    border-color: blue;
+}
+
+.sidebar a:hover{
+    color:#2B3674;
+}
+
+
+.menu_titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.barra_pesquisa{
+    display: flex;
+    height: 61px;
+    width: 422px;
+    border-radius:30px;
+    background-color: white;
+    align-items: center;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+}
+
+.barra_pesquisa .input{
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    width:214px;
+    height:41px;
+    border-radius: 49px;
+    border-style: none;
+    background-color: #F4F7FE;
+    
+}
+
+.search{
+    width: 20px;
+    color:#2B3674;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.barra_pesquisa_simbolos{
+    color:#2B3674;
+    margin-left: 20px;
+    cursor:pointer
+}
+
+
+.foto{
+    margin-left: 30px;
+    border-radius: 50%;
+    cursor:pointer
+}
+
+
+.barra_pesquisa .input input{
+
+   background-color: rgba(0,0,0,0);
+   border:none;
+   height: inherit;
+   outline: none;
+}
+
+.caminho{
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500px;
+    color:#707EAE;
+}
+
+.titulo{
+    padding: 0;
+    margin-top: 0;
+    font-size: 34px;
+    font-weight: 700px;
+    color:#2B3674;
+    
+}
+
+.menu_filtro{
+    display: flex;
+    background-color: white;
+    width: 644px;
+    height: 61px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500px;
+    font-size: 14px;
+    color:#707EAE;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+    
+}
+
+.filtro{
+    width:214px;
+    height:41px;
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F7FE;
+    cursor: pointer;
+}
+
+.filtro span{
+    margin-left: 10px;
+}
+
+.menu_filtro small:nth-child(2){
+    width: 214px;
+    height: 41px;
+    border-radius: 49px;
+    display: block;
+    background-color: red;
+}
+
+.cards_receita{
+    margin-top: 83px;
+    display: flex;
+}
+
+.cards_small_sales{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.cards_cotacoes{
+    margin-top:20px;
+    display:flex;
+    
+}
+
+.cards_tabelas{
+    margin-top:31px;
+    display: flex;
+}

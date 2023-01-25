@@ -1,0 +1,73 @@
+.card_small_sale{
+    position:relative;
+    background-color: white;
+    width: 249px;
+    height: 95px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.titulo{
+    position: absolute;
+    left: 23px;
+    top: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+
+color: #A3AED0;
+}
+
+.valores{
+    position:relative;
+    top:33px;
+    left:23px;
+    display: flex;
+    align-items: baseline;
+}
+.valor{
+    top:33px;
+    left:23px;
+    color: #2B3674;
+    font-size:24px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.mais_info{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color:#A3AED0;
+}
+
+.detalhes_botom{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    top:67px;
+    left:23px
+}
+
+.detalhes{
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+
+.detalhes_incremento{
+    height: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    
+}

@@ -1,0 +1,72 @@
+.card_receita{
+    position:relative;
+    margin-right: 20px;
+    width:380px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+
+
+.cifrao{
+    display: flex;
+    margin-top:22px;
+    margin-left:16px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor{
+    position: absolute   ;
+    display: block;
+    top: 109px;
+    left: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+.nome_card{
+    position:absolute;
+    top:158px;
+    left:16px;
+    font-size:24px;
+    font-weight: 500;
+    color:white;
+    opacity: 70%;
+}
+
+.separador{
+    position:absolute;
+    display: block;
+    top:212px;
+    left:0px;
+    right: 0px;
+    height: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: white;
+}
+
+.valor_medio{
+    position:absolute;
+    top:230px;
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+    left:16px;
+}
+
+.nome_media_cliente{
+    position:absolute;
+    top:261px;
+    left:16px;
+    font-size:14px;
+    color:white;
+    font-weight: 500;
+    opacity: 70%;
+
+}
